@@ -26,3 +26,7 @@ Route::get('/img', function () {
 Route::get('/bio', function () {
     return view('biography');
 });
+
+Route::get('/verk6', function () {
+    return view('verk6');
+});
